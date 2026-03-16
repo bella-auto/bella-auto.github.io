@@ -1,1 +1,1163 @@
-<h1>Тестовый сайт запущен и работает!</h1>
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Автозапчасти БЭЛЛА в Волгодонске — магазины на Маяковского 12 и Курчатова 1Г. Запчасти для ВАЗ и иномарок, масла, фильтры, автохимия, СТО. Работаем с 2001 года.">
+    <meta name="keywords" content="автозапчасти Волгодонск, запчасти ВАЗ, запчасти иномарок, СТО Волгодонск, автомагазин Волгодонск, БЭЛЛА, Маяковского 12, Курчатова 1Г, моторное масло, LIQUI MOLY, MANNOL, DENSO, ремонт авто, масляные фильтры, автохимия, антифриз">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Автозапчасти БЭЛЛА">
+    <meta name="geo.region" content="RU-ROS">
+    <meta name="geo.placename" content="Волгодонск">
+    <meta property="og:title" content="Автозапчасти БЭЛЛА — ВАЗ, иномарки, СТО | Волгодонск">
+    <meta property="og:description" content="Магазины автозапчастей и СТО в Волгодонске с 2001 года. Запчасти для ВАЗ и иномарок, масла LIQUI MOLY, MANNOL, фильтры, автохимия.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ru_RU">
+    <meta property="og:image" content="photos/IMG_20251208_143837075.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Автозапчасти БЭЛЛА — Волгодонск">
+    <meta name="twitter:description" content="Магазины автозапчастей и СТО в Волгодонске с 2001 года.">
+    <title>Автозапчасти БЭЛЛА — ВАЗ, иномарки, СТО | Волгодонск</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="nav-logo">
+                    <img src="logo.png" alt="Автозапчасти БЭЛЛА" class="logo-img">
+                </div>
+                <button class="nav-toggle" id="navToggle" aria-label="Открыть меню">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home" class="nav-link active">Главная</a></li>
+                    <li><a href="#about" class="nav-link">О нас</a></li>
+                    <li><a href="#products" class="nav-link">Товары и услуги</a></li>
+                    <li><a href="#info" class="nav-link">Полезная информация</a></li>
+                    <li><a href="#partnership" class="nav-link">Сотрудничество</a></li>
+                    <li><a href="#reviews" class="nav-link">Отзывы</a></li>
+                    <li><a href="#contacts" class="nav-link">Контакты</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="hero-title-main">АВТОЗАПЧАСТИ «БЭЛЛА»</span>
+                    <span class="hero-subtitle">Все что нужно вашей машине — здесь и сейчас!</span>
+                </h1>
+                <p class="hero-text">...а если нет, просто закажите — подскажем, поможем, улыбнемся!</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">Наши товары</a>
+                    <a href="#contacts" class="btn btn-secondary">Связаться с нами</a>
+                </div>
+            </div>
+            <!-- Большой логотип справа -->
+            <div class="hero-logo fade-in" aria-hidden="false">
+                <img class="logo" src="logo.png" alt="БЭЛЛА — автозапчасти" />
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <span>Прокрутите вниз</span>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M10 4V16M10 16L4 10M10 16L16 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="mission">
+        <div class="container">
+            <div class="mission-content">
+                <div class="mission-icon">
+                    <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                        <circle cx="32" cy="32" r="30" stroke="currentColor" stroke-width="2" />
+                        <path d="M32 16V32L42 42" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                </div>
+                <h2>Наша миссия</h2>
+                <p>Обеспечить наших клиентов всем необходимым для безопасной и безупречной эксплуатации легковых автомобилей отечественного и иностранного производства</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <h2 class="section-title">Фотографии</h2>
+            <div class="gallery-wrapper">
+                <button class="scroll-arrow scroll-arrow-left" id="galleryPrev" aria-label="Предыдущее фото">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <div class="gallery-grid" id="galleryGrid">
+                    <div class="gallery-item"><img src="photos/mini/photo-01.jpg" alt="Фото 1" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-02.jpg" alt="Фото 2" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-03.jpg" alt="Фото 3" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-04.jpg" alt="Фото 4" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-05.jpg" alt="Фото 5" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-06.jpg" alt="Фото 6" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-07.jpg" alt="Фото 7" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-08.jpg" alt="Фото 8" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-09.jpg" alt="Фото 9" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-10.jpg" alt="Фото 10" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-11.jpg" alt="Фото 11" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-12.jpg" alt="Фото 12" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-13.jpg" alt="Фото 13" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-14.jpg" alt="Фото 14" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-15.jpg" alt="Фото 15" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-16.jpg" alt="Фото 16" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-17.jpg" alt="Фото 17" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-18.jpg" alt="Фото 18" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-19.jpg" alt="Фото 19" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-20.jpg" alt="Фото 20" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-21.jpg" alt="Фото 21" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-22.jpg" alt="Фото 22" loading="lazy"></div>
+                    <div class="gallery-item"><img src="photos/mini/photo-23.jpg" alt="Фото 23" loading="lazy"></div>
+                </div>
+                <button class="scroll-arrow scroll-arrow-right" id="galleryNext" aria-label="Следующее фото">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Catalogs Section -->
+    <section class="catalogs">
+        <div class="container">
+            <h2 class="section-title">Каталоги запасных частей</h2>
+            <div class="catalogs-grid">
+                <!-- PLACEHOLDER: Здесь будут PDF каталоги -->
+                <div class="catalog-card">
+                    <div class="catalog-icon">
+                        <svg width="34" height="34" viewBox="0 0 24 24" fill="none">
+                            <path d="M3 7C3 5.89543 3.89543 5 5 5H10.5858C10.851 5 11.1054 5.10536 11.2929 5.29289L13 7H19C20.1046 7 21 7.89543 21 9V18C21 19.1046 20.1046 20 19 20H5C3.89543 20 3 19.1046 3 18V7Z" stroke="white" stroke-width="1.5" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="catalog-body">
+                        <h3>Каталог запчастей для автомобилей ВАЗ</h3>
+                        <p>Полный каталог с номерами деталей и схемами узлов</p>
+                        <a class="btn-catalog" href="" target="_blank">
+                            Открыть на Яндекс.Диске
+                            <svg width="14" height="14" viewBox="0 0 16 16" fill="none"><path d="M3 8H13M13 8L9 4M13 8L9 12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-content">
+                    <h2 class="section-title">О нас</h2>
+                    <div class="about-text">
+                        <p>Автозапчасти «БЭЛЛА» основана в <strong>2001 году</strong>. Сейчас к услугам наших клиентов работают два магазина автотоваров, а также станций техобслуживания легковых автомобилей.</p>
+                        <p>За время работы «БЭЛЛА» зарекомендовала себя как надёжный партнёр, потому что здесь понимают вас и ваш автомобиль.</p>
+                        <p>У нас работают <strong>профессионалы</strong>, которые знают простой подход к сложной технике.</p>
+                    </div>
+                </div>
+                <div class="about-features">
+                    <h3>У нас для вас</h3>
+                    <ul class="features-list">
+                        <li>
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M9 11L12 14L22 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M21 12V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </div>
+                            <span>Ремонт и техобслуживание автомобилей надежно, качественно, быстро</span>
+                        </li>
+                        <li>
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M9 11L12 14L22 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M21 12V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </div>
+                            <span>Полный спектр автозапчастей для автомобилей ВАЗ</span>
+                        </li>
+                        <li>
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M9 11L12 14L22 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M21 12V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </div>
+                            <span>Моторные, трансмиссионные и гидравлические масла</span>
+                        </li>
+                        <li>
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M9 11L12 14L22 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M21 12V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </div>
+                            <span>Все виды фильтров: воздушные, масляные, топливные, салонные</span>
+                        </li>
+                        <li>
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M9 11L12 14L22 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M21 12V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </div>
+                            <span>Автомобильные лампы различных типов и производителей</span>
+                        </li>
+                        <li>
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M9 11L12 14L22 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M21 12V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </div>
+                            <span>Спецжидкости: тосол, антифриз, стеклоомыватели и другие</span>
+                        </li>
+                        <li>
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M9 11L12 14L22 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M21 12V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V5C3 3.89543 3.89543 3 5 3H16" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </div>
+                            <span>Средства для ухода за автомобилем и автокосметика</span>
+                        </li>
+                        <p>И многое другое...</p>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands Section -->
+    <section class="brands">
+        <div class="container">
+            <h2 class="section-title">Бренды, которые мы представляем</h2>
+            <p class="section-subtitle">Кликните на бренд для перехода на официальный сайт</p>
+            <div class="brands-grid">
+                <a class="brand-card" href="https://volgodonsk.grass.su/" target="_blank" rel="noopener" style="--bc:#27ae60">
+                    <div class="brand-card-name">GRASS</div>
+                    <div class="brand-card-desc">Автохимия (Россия)</div>
+                </a>
+                <a class="brand-card" href="https://www.mannol.de/ru" target="_blank" rel="noopener" style="--bc:#c0392b">
+                    <div class="brand-card-name">MANNOL</div>
+                    <div class="brand-card-desc">Масла и смазки (DE)</div>
+                </a>
+                <a class="brand-card" href="https://sct-catalogue.de/" target="_blank" rel="noopener" style="--bc:#2980b9">
+                    <div class="brand-card-name">SCT</div>
+                    <div class="brand-card-desc">Фильтры и масла (DE)</div>
+                </a>
+                <a class="brand-card" href="https://kixxlube.ru/" target="_blank" rel="noopener" style="--bc:#8e44ad">
+                    <div class="brand-card-name">Kixx</div>
+                    <div class="brand-card-desc">Моторные масла (KR)</div>
+                </a>
+                <a class="brand-card" href="https://liquimoly.ru/" target="_blank" rel="noopener" style="--bc:#e67e22">
+                    <div class="brand-card-name">LIQUI MOLY</div>
+                    <div class="brand-card-desc">Премиум масла (DE)</div>
+                </a>
+                <a class="brand-card" href="https://plak.ru/" target="_blank" rel="noopener" style="--bc:#16a085">
+                    <div class="brand-card-name">PLAK</div>
+                    <div class="brand-card-desc">Автокосметика (RU)</div>
+                </a>
+                <a class="brand-card" href="https://абро.рф/" target="_blank" rel="noopener" style="--bc:#e74c3c">
+                    <div class="brand-card-name">ABRO</div>
+                    <div class="brand-card-desc">Автохимия (US)</div>
+                </a>
+                <a class="brand-card" href="https://www.astrohim.ru/" target="_blank" rel="noopener" style="--bc:#00897b">
+                    <div class="brand-card-name">Astrohim</div>
+                    <div class="brand-card-desc">Автохимия и уход (RU)</div>
+                </a>
+                <a class="brand-card" href="https://smazka.ru/" target="_blank" rel="noopener" style="--bc:#00838f">
+                    <div class="brand-card-name">ВМПАВТО</div>
+                    <div class="brand-card-desc">Смазки и присадки</div>
+                </a>
+                <a class="brand-card" href="https://body.com.pl/" target="_blank" rel="noopener" style="--bc:#546e7a">
+                    <div class="brand-card-name">BODY</div>
+                    <div class="brand-card-desc">Кузовные материалы (PL)</div>
+                </a>
+                <a class="brand-card" href="https://novol.shop/" target="_blank" rel="noopener" style="--bc:#d35400">
+                    <div class="brand-card-name">NOVOL</div>
+                    <div class="brand-card-desc">Кузовная химия (PL)</div>
+                </a>
+                <a class="brand-card" href="https://www.agah.ru/" target="_blank" rel="noopener" style="--bc:#0097a7">
+                    <div class="brand-card-name">AGA</div>
+                    <div class="brand-card-desc">Антифризы и жидкости</div>
+                </a>
+                <a class="brand-card" href="http://www.velv.ru/" target="_blank" rel="noopener" style="--bc:#37474f">
+                    <div class="brand-card-name">ВЭЛВ</div>
+                    <div class="brand-card-desc">Тормозные жидкости</div>
+                </a>
+                <a class="brand-card" href="https://runway.ru/" target="_blank" rel="noopener" style="--bc:#f39c12">
+                    <div class="brand-card-name">RUNWAY</div>
+                    <div class="brand-card-desc">Автохимия и уход</div>
+                </a>
+                <a class="brand-card" href="https://lavr.ru/" target="_blank" rel="noopener" style="--bc:#c2185b">
+                    <div class="brand-card-name">LAVR</div>
+                    <div class="brand-card-desc">Промывки и присадки</div>
+                </a>
+                <a class="brand-card" href="https://hi-gear.ru/" target="_blank" rel="noopener" style="--bc:#607d8b">
+                    <div class="brand-card-name">HIGEAR</div>
+                    <div class="brand-card-desc">Автохимия (US)</div>
+                </a>
+                <a class="brand-card" href="https://doctorwax.ru/" target="_blank" rel="noopener" style="--bc:#6d4c41">
+                    <div class="brand-card-name">DOCTOR WAX</div>
+                    <div class="brand-card-desc">Полироли и уход</div>
+                </a>
+                <a class="brand-card" href="https://vixen-paint.ru/" target="_blank" rel="noopener" style="--bc:#e64a19">
+                    <div class="brand-card-name">VIXEN</div>
+                    <div class="brand-card-desc">Автомобильные краски</div>
+                </a>
+                <a class="brand-card" href="https://3ton.ru/" target="_blank" rel="noopener" style="--bc:#455a64">
+                    <div class="brand-card-name">3TON</div>
+                    <div class="brand-card-desc">Инструмент и подъём</div>
+                </a>
+                <a class="brand-card" href="https://smt2.com/" target="_blank" rel="noopener" style="--bc:#00695c">
+                    <div class="brand-card-name">SMT2</div>
+                    <div class="brand-card-desc">Модификаторы трения</div>
+                </a>
+                <a class="brand-card" href="https://kangaroo.ru/" target="_blank" rel="noopener" style="--bc:#558b2f">
+                    <div class="brand-card-name">KANGAROO</div>
+                    <div class="brand-card-desc">Автоаксессуары</div>
+                </a>
+                <a class="brand-card" href="https://stepup.biz/" target="_blank" rel="noopener" style="--bc:#ef6c00">
+                    <div class="brand-card-name">STEP UP</div>
+                    <div class="brand-card-desc">Присадки к маслам</div>
+                </a>
+                <a class="brand-card" href="https://nevsky-filter.ru/" target="_blank" rel="noopener" style="--bc:#5c6bc0">
+                    <div class="brand-card-name">НЕВСКИЙ ФИЛЬТР</div>
+                    <div class="brand-card-desc">Фильтры (Россия)</div>
+                </a>
+                <a class="brand-card" href="https://www.denso-am.eu/ru" target="_blank" rel="noopener" style="--bc:#1565c0">
+                    <div class="brand-card-name">DENSO</div>
+                    <div class="brand-card-desc">Автокомпоненты (JP)</div>
+                </a>
+                <a class="brand-card" href="https://www.ctr.co.kr/" target="_blank" rel="noopener" style="--bc:#b71c1c">
+                    <div class="brand-card-name">CTR</div>
+                    <div class="brand-card-desc">Ходовая и рулевое (KR)</div>
+                </a>
+                <a class="brand-card" href="https://www.valeoservice.com/en-com" target="_blank" rel="noopener" style="--bc:#0277bd">
+                    <div class="brand-card-name">VALEO</div>
+                    <div class="brand-card-desc">Автокомпоненты (FR)</div>
+                </a>
+                <a class="brand-card" href="https://b-ring.ru/" target="_blank" rel="noopener" style="--bc:#2e7d32">
+                    <div class="brand-card-name">B-ring</div>
+                    <div class="brand-card-desc">Ремни и запчасти (RU)</div>
+                </a>
+                <a class="brand-card" href="http://hoferparts.ru/" target="_blank" rel="noopener" style="--bc:#6a1b9a">
+                    <div class="brand-card-name">HOFER</div>
+                    <div class="brand-card-desc">Ходовая часть (RU)</div>
+                </a>
+                <a class="brand-card" href="https://www.kedr.ru/" target="_blank" rel="noopener" style="--bc:#5d4037">
+                    <div class="brand-card-name">КЕДР</div>
+                    <div class="brand-card-desc">Прокладки (Россия)</div>
+                </a>
+                <a class="brand-card" href="https://trek.ru/" target="_blank" rel="noopener" style="--bc:#1976d2">
+                    <div class="brand-card-name">ТРЭК</div>
+                    <div class="brand-card-desc">Запчасти для ВАЗ</div>
+                </a>
+                <a class="brand-card" href="https://qpilenga.com/" target="_blank" rel="noopener" style="--bc:#c62828">
+                    <div class="brand-card-name">PILENGA</div>
+                    <div class="brand-card-desc">Шаровые, рулевые (IT)</div>
+                </a>
+                <a class="brand-card" href="http://www.kronerauto.com/ru/glavnaja.html" target="_blank" rel="noopener" style="--bc:#4527a0">
+                    <div class="brand-card-name">KRONER</div>
+                    <div class="brand-card-desc">Ходовая и тормоза</div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="section-title">Товары и услуги</h2>
+
+            <!-- Services Tab -->
+            <div class="services-section">
+                <h3>Услуги по ремонту и техобслуживанию автомобиля</h3>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                                <path d="M9.5 2a.5.5 0 0 1 .5.5V4h4V2.5a.5.5 0 0 1 1 0V4h1a2 2 0 0 1 2 2v1.5a4.5 4.5 0 0 1-4.5 4.5h-.5v2h1a3 3 0 0 1 3 3v2.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V17a3 3 0 0 1 3-3h1v-2h-.5A4.5 4.5 0 0 1 6 7.5V6a2 2 0 0 1 2-2h1V2.5a.5.5 0 0 1 .5-.5z" stroke="currentColor" stroke-width="1.3" fill="none" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Диагностика и техобслуживание</h4>
+                        <p>Компьютерная диагностика ВАЗ и иномарок. Техническое обслуживание по регламенту.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                                <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h4>Ремонт и шиномонтаж</h4>
+                        <p>Ремонт двигателя, ходовой части, кузовные работы. Шиномонтаж с балансировкой.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/>
+                                <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M12 2v3M12 19v3M2 12h3M19 12h3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h4>Сход-развал, замена масла ДВС</h4>
+                        <p>Регулировка углов колёс. Замена моторного масла с промывкой и контролем фильтров.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none">
+                                <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" stroke="currentColor" stroke-width="1.5"/>
+                                <path d="M8 12h8M12 8v8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h4>Аппаратная замена масла АКПП</h4>
+                        <p>Полная замена и промывка масла в АКПП. Пролонгация ресурса коробки передач.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Products Alphabet Search -->
+            <div class="products-section">
+                <h3>Запчасти и автохимия</h3>
+
+                <div class="products-container">
+                    <!-- Алфавитное меню слева (3 колонки) -->
+                    <aside class="alphabet-sidebar">
+                        <div class="alphabet-filter">
+                            <button class="alphabet-btn active" data-letter="all" title="Показать все товары">Все</button>
+                            <button class="alphabet-btn" data-letter="А">А</button>
+                            <button class="alphabet-btn" data-letter="Б">Б</button>
+                            <button class="alphabet-btn" data-letter="В">В</button>
+                            <button class="alphabet-btn" data-letter="Г">Г</button>
+                            <button class="alphabet-btn" data-letter="Д">Д</button>
+                            <button class="alphabet-btn" data-letter="Е">Е</button>
+                            <button class="alphabet-btn" data-letter="З">З</button>
+                            <button class="alphabet-btn" data-letter="И">И</button>
+                            <button class="alphabet-btn" data-letter="К">К</button>
+                            <button class="alphabet-btn" data-letter="Л">Л</button>
+                            <button class="alphabet-btn" data-letter="М">М</button>
+                            <button class="alphabet-btn" data-letter="Н">Н</button>
+                            <button class="alphabet-btn" data-letter="О">О</button>
+                            <button class="alphabet-btn" data-letter="П">П</button>
+                            <button class="alphabet-btn" data-letter="Р">Р</button>
+                            <button class="alphabet-btn" data-letter="С">С</button>
+                            <button class="alphabet-btn" data-letter="Т">Т</button>
+                            <button class="alphabet-btn" data-letter="У">У</button>
+                            <button class="alphabet-btn" data-letter="Ф">Ф</button>
+                            <button class="alphabet-btn" data-letter="Х">Х</button>
+                            <button class="alphabet-btn" data-letter="Ц">Ц</button>
+                            <button class="alphabet-btn" data-letter="Ш">Ш</button>
+                            <button class="alphabet-btn" data-letter="Э">Э</button>
+                        </div>
+                    </aside>
+
+                    <!-- Список товаров справа -->
+                    <div class="products-content">
+                        <!-- Поиск -->
+                        <div class="products-search">
+                            <input type="text" id="productsSearch" class="search-input" placeholder="🔍 Поиск по названию товара..." autocomplete="off">
+                            <button class="search-clear" id="searchClear" title="Очистить поиск">✕</button>
+                        </div>
+
+                        <div class="products-stats" id="productsStats">
+                            <span class="stats-text">Загрузка ассортимента...</span>
+                        </div>
+
+                        <div class="products-list" id="productsList">
+                            <!-- Товары будут загружены динамически через JavaScript -->
+                        </div>
+
+                        <!-- Пагинация -->
+                        <div class="pagination" id="pagination">
+                            <button class="pagination-btn" id="paginationFirst" title="Первая страница">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M13 15L8 10L13 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M7 15L7 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </button>
+                            <button class="pagination-btn" id="paginationPrev" title="Предыдущая">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M12 15L7 10L12 5" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </button>
+                            <div class="pagination-info" id="paginationInfo">
+                                <span class="pagination-current">1</span> / <span class="pagination-total">1</span>
+                            </div>
+                            <button class="pagination-btn" id="paginationNext" title="Следующая">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M8 5L13 10L8 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </button>
+                            <button class="pagination-btn" id="paginationLast" title="Последняя страница">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M7 5L12 10L7 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                    <path d="M13 5L13 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="info" id="info">
+        <div class="container">
+            <h2 class="section-title">Полезная информация</h2>
+            <div class="articles-grid" id="articlesGrid">
+
+                <article class="article-card">
+                    <div class="article-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M12 7v5l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="article-content">
+                        <h3>Режим работы с 01 ноября по 31 марта</h3>
+                        <div class="schedule-block">
+                            <div class="schedule-section">
+                                <div class="schedule-section-title">Магазины</div>
+                                <div class="schedule-row">
+                                    <span class="day">Пн – Сб</span>
+                                    <span class="time">8:00 – 19:00</span>
+                                </div>
+                                <div class="schedule-row">
+                                    <span class="day">Воскресенье</span>
+                                    <span class="time">8:00 – 18:00</span>
+                                </div>
+                            </div>
+                            <div class="schedule-section">
+                                <div class="schedule-section-title">СТО</div>
+                                <div class="schedule-row">
+                                    <span class="day">Пн – Сб</span>
+                                    <span class="time">9:00 – 17:00</span>
+                                </div>
+                                <div class="schedule-row">
+                                    <span class="day">Воскресенье</span>
+                                    <span class="time schedule-closed">Выходной</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M12 2v2M12 20v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M2 12h2M20 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="article-content">
+                        <h3>Режим работы с 01 апреля по 30 октября</h3>
+                        <div class="schedule-block">
+                            <div class="schedule-section">
+                                <div class="schedule-section-title">Магазины</div>
+                                <div class="schedule-row">
+                                    <span class="day">Пн – Сб</span>
+                                    <span class="time">8:00 – 20:00</span>
+                                </div>
+                                <div class="schedule-row">
+                                    <span class="day">Воскресенье</span>
+                                    <span class="time">8:00 – 19:00</span>
+                                </div>
+                            </div>
+                            <div class="schedule-section">
+                                <div class="schedule-section-title">СТО</div>
+                                <div class="schedule-row">
+                                    <span class="day">Пн – Сб</span>
+                                    <span class="time">9:00 – 17:00</span>
+                                </div>
+                                <div class="schedule-row">
+                                    <span class="day">Воскресенье</span>
+                                    <span class="time schedule-closed">Выходной</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="3" y="4" width="18" height="18" rx="2" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M16 2v4M8 2v4M3 10h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M12 14v4M10 16h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="article-content">
+                        <h3>Режим работы в праздничные дни</h3>
+                        <div class="schedule-block">
+                            <div class="schedule-section">
+                                <div class="schedule-section-title">Магазины</div>
+                                <div class="schedule-row">
+                                    <span class="day">01 января</span>
+                                    <span class="time schedule-closed">Выходной</span>
+                                </div>
+                                <div class="schedule-note">02 янв; 8 мар; 1 мая; 9 мая; 31 дек — <strong>9:00 – 17:00</strong></div>
+                            </div>
+                            <div class="schedule-section">
+                                <div class="schedule-section-title">СТО</div>
+                                <div class="schedule-note">По предварительной договорённости:<br><a href="tel:+79895233401" class="article-phone">8-989-523-34-01</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 21h18M5 21V7l7-4 7 4v14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M10 21v-5h4v5" stroke="currentColor" stroke-width="1.5"/>
+                            <path d="M10 11h.01M14 11h.01M10 15h.01M14 15h.01" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="article-content">
+                        <h3>Корпоративным клиентам</h3>
+                        <ul class="info-tags">
+                            <li>НДС 5%</li>
+                            <li>Расчётный счёт</li>
+                            <li>ЭДО</li>
+                        </ul>
+                        <div class="info-contacts">
+                            <div class="info-contact">
+                                <a href="tel:+78639223967">8(863)9-22-39-67</a>
+                                <span>Наталья Николаевна — Маяковского 12, магазин</span>
+                            </div>
+                            <div class="info-contact">
+                                <a href="tel:+78639256008">8(863)9-25-60-08</a>
+                                <span>Татьяна Юрьевна — Курчатова 1Г, магазин</span>
+                            </div>
+                            <div class="info-contact">
+                                <a href="tel:+79895233401">8-989-523-34-01</a>
+                                <span>Юрий Николаевич — Курчатова 1Г, СТО</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M3 6h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                            <path d="M16 10a4 4 0 01-8 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <div class="article-content">
+                        <h3>Розничным покупателям</h3>
+                        <ul class="benefits-list">
+                            <li>Бонусная система накопительных скидок с возможностью оплаты бонусными баллами (1 балл = 1 руб.)</li>
+                            <li>Подарочные карты различного номинала с неограниченным сроком действия</li>
+                            <li>Индивидуальный подход при формировании заказов</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="article-card">
+                    <div class="article-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 3L4 7v5c0 4.4 3.4 8.5 8 9.5 4.6-1 8-5.1 8-9.5V7l-8-4z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+                            <path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="article-content">
+                        <h3>Гарантии качества</h3>
+                        <ul class="benefits-list">
+                            <li>Товары с официальной гарантией качества от производителя</li>
+                            <li>Работаем только с проверенными поставщиками, соблюдаем законодательство РФ</li>
+                            <li>Возврат и обмен товара по закону «О защите прав потребителей»</li>
+                        </ul>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Partnership Section -->
+    <section class="partnership" id="partnership">
+        <div class="container">
+            <h2 class="section-title">Сотрудничество</h2>
+            <div class="partnership-wrapper">
+                <!-- Corporate Clients -->
+                <div class="partnership-card">
+                    <div class="partnership-icon">
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                            <path d="M8 24L32 8L56 24V52C56 54.2091 54.2091 56 52 56H12C9.79086 56 8 54.2091 8 52V24Z" stroke="currentColor" stroke-width="2" />
+                            <path d="M24 56V32H40V56" stroke="currentColor" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <h3>Корпоративным клиентам</h3>
+                    <ul class="partnership-list">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7 10L9 12L13 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" />
+                            </svg>
+                            <span>Работаем с НДС 5%</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7 10L9 12L13 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" />
+                            </svg>
+                            <span>Оплата на расчетный счет</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7 10L9 12L13 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" />
+                            </svg>
+                            <span>Электронный документооборот (ЭДО)</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7 10L9 12L13 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" />
+                            </svg>
+                            <span>Полный пакет документов</span>
+                        </li>
+                    </ul>
+                    <div class="contact-persons">
+                        <div class="contact-person">
+                            <p class="contact-name">Наталья Николаевна</p>
+                            <p class="contact-position">Маяковского 12 - магазин</p>
+                            <a href="tel:+78639223967" class="contact-phone" data-phone="+7 (863-9) 22-39-67">+7 (863-9) 22-39-67</a>
+                        </div>
+                        <div class="contact-person">
+                            <p class="contact-name">Татьяна Юрьевна</p>
+                            <p class="contact-position">Курчатова 1Г - магазин</p>
+                            <a href="tel:+78639256008" class="contact-phone" data-phone="+7 (863-9) 25-60-08">+7 (863-9) 25-60-08</a>
+                        </div>
+                        <div class="contact-person">
+                            <p class="contact-name">Юрий Николаевич</p>
+                            <p class="contact-position">Курчатова 1Г - СТО</p>
+                            <a href="tel:+79895233401" class="contact-phone" data-phone="+7 (989) 523-34-01">+7 (989) 523-34-01</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Retail Clients -->
+                <div class="partnership-card">
+                    <div class="partnership-icon">
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none">
+                            <path d="M12 24L8 48H56L52 24H12Z" stroke="currentColor" stroke-width="2" />
+                            <path d="M20 24V16C20 12.6863 22.6863 10 26 10H38C41.3137 10 44 12.6863 44 16V24" stroke="currentColor" stroke-width="2" />
+                            <circle cx="32" cy="32" r="4" stroke="currentColor" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <h3>Розничным покупателям</h3>
+                    <ul class="partnership-list">
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7 10L9 12L13 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" />
+                            </svg>
+                            <span>Бонусная система накопительных скидок с возможностью оплаты товара бонусными баллами (1 балл = 1 руб.)</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7 10L9 12L13 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" />
+                            </svg>
+                            <span>Подарочные карты различного номинала</span>
+                        </li>
+                        <li>
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M7 10L9 12L13 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2" />
+                            </svg>
+                            <span>Индивидуальный подход при формировании заказов</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <h2 class="section-title">Отзывы наших клиентов</h2>
+            <div class="reviews-wrapper">
+                <button class="scroll-arrow scroll-arrow-left" id="reviewsPrev" aria-label="Предыдущий отзыв">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <div class="reviews-scroll-container" id="reviewsContainer">
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">А</div>
+                            <div class="review-info">
+                                <h4>Александр Иванов</h4>
+                                <div class="review-rating">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="review-text">Отличный магазин! Покупаю запчасти для своей "семерки" уже 10 лет. Всегда всё в наличии, цены адекватные, персонал знает своё дело. Рекомендую!</p>
+                        <span class="review-date">10.12.2024</span>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">М</div>
+                            <div class="review-info">
+                                <h4>Мария Петрова</h4>
+                                <div class="review-rating">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="review-text">Прекрасное обслуживание на СТО! Юрий Николаевич помог с диагностикой и быстро устранил проблему. Цены честные, работа качественная. Спасибо большое!</p>
+                        <span class="review-date">05.12.2024</span>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">Д</div>
+                            <div class="review-info">
+                                <h4>Дмитрий Соколов</h4>
+                                <div class="review-rating">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="review-text">Очень доволен покупкой! Нужны были срочно колодки, позвонил - зарезервировали. Приехал через час - всё готово. Быстро, удобно, профессионально!</p>
+                        <span class="review-date">28.11.2024</span>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">Е</div>
+                            <div class="review-info">
+                                <h4>Елена Смирнова</h4>
+                                <div class="review-rating">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="review-text">Замечательный магазин на Маяковского! Наталья Николаевна всегда поможет с выбором, подскажет лучший вариант. Цены приятно удивляют. Буду приходить ещё!</p>
+                        <span class="review-date">22.11.2024</span>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">И</div>
+                            <div class="review-info">
+                                <h4>Игорь Кузнецов</h4>
+                                <div class="review-rating">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="review-text">Лучший магазин автозапчастей в Волгодонске! Огромный выбор масел, фильтров, расходников. Персонал грамотный, всегда помогут определиться с выбором.</p>
+                        <span class="review-date">15.11.2024</span>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">О</div>
+                            <div class="review-info">
+                                <h4>Ольга Новикова</h4>
+                                <div class="review-rating">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="review-text">Обслуживаюсь в БЭЛЛА уже 5 лет. Всегда довольна! Удобное расположение, хорошие цены, качественные запчасти. Особенно нравится бонусная система.</p>
+                        <span class="review-date">08.11.2024</span>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">С</div>
+                            <div class="review-info">
+                                <h4>Сергей Волков</h4>
+                                <div class="review-rating">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="review-text">Отличное СТО! Делали развал-схождение и меняли масло. Всё сделали быстро и качественно. Приятные цены и вежливый персонал. Рекомендую!</p>
+                        <span class="review-date">01.11.2024</span>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">Н</div>
+                            <div class="review-info">
+                                <h4>Наталья Васильева</h4>
+                                <div class="review-rating">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="review-text">Спасибо за помощь в подборе запчастей! Как женщина, я не очень разбираюсь в автомобилях, но здесь мне всё объяснили доходчиво и помогли выбрать то, что нужно.</p>
+                        <span class="review-date">25.10.2024</span>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">В</div>
+                            <div class="review-info">
+                                <h4>Виктор Морозов</h4>
+                                <div class="review-rating">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="review-text">Покупал комплект сцепления для ВАЗ 2110. Отличное качество, установили на СТО здесь же. Прошло уже полгода - никаких нареканий. Молодцы!</p>
+                        <span class="review-date">18.10.2024</span>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">Т</div>
+                            <div class="review-info">
+                                <h4>Татьяна Королева</h4>
+                                <div class="review-rating">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="review-text">Магазин на Курчатова - просто находка! Большой ассортимент, удобная парковка, приветливый персонал. Татьяна Юрьевна всегда поможет с выбором!</p>
+                        <span class="review-date">12.10.2024</span>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">А</div>
+                            <div class="review-info">
+                                <h4>Андрей Лебедев</h4>
+                                <div class="review-rating">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="review-text">Заказывал запчасти для иномарки - всё привезли за 2 дня! Быстро, качественно, по приемлемой цене. Очень доволен обслуживанием. Буду обращаться ещё!</p>
+                        <span class="review-date">05.10.2024</span>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">Л</div>
+                            <div class="review-info">
+                                <h4>Людмила Орлова</h4>
+                                <div class="review-rating">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="review-text">Прекрасный магазин! Покупала подарочную карту для мужа - он был в восторге! Потом сам выбрал нужные запчасти. Отличная идея с картами!</p>
+                        <span class="review-date">28.09.2024</span>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">П</div>
+                            <div class="review-info">
+                                <h4>Павел Григорьев</h4>
+                                <div class="review-rating">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="review-text">Обслуживаюсь в БЭЛЛА с момента открытия. За все эти годы ни разу не подвели! Качественные запчасти, профессиональный сервис. Лучшие в городе!</p>
+                        <span class="review-date">20.09.2024</span>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">К</div>
+                            <div class="review-info">
+                                <h4>Кирилл Федоров</h4>
+                                <div class="review-rating">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="review-text">Ремонтировал ходовую на СТО - всё сделали отлично! Мастера знают своё дело, используют качественные запчасти. Цены адекватные. Советую всем!</p>
+                        <span class="review-date">15.09.2024</span>
+                    </div>
+
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="review-avatar">Ю</div>
+                            <div class="review-info">
+                                <h4>Юлия Романова</h4>
+                                <div class="review-rating">★★★★★</div>
+                            </div>
+                        </div>
+                        <p class="review-text">Очень благодарна за индивидуальный подход! Помогли подобрать все необходимое для ТО моего автомобиля. Всё объяснили, показали. Прекрасный сервис!</p>
+                        <span class="review-date">08.09.2024</span>
+                    </div>
+                    <button class="scroll-arrow scroll-arrow-right" id="reviewsNext" aria-label="Следующий отзыв">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section class="contacts" id="contacts">
+        <div class="container">
+            <h2 class="section-title">Контакты и режим работы</h2>
+            <div class="contacts-grid">
+                <!-- Store 1 -->
+                <div class="contact-card">
+                    <div class="contact-header">
+                        <div class="contact-icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <path d="M24 4L8 14V28C8 36 24 44 24 44C24 44 40 36 40 28V14L24 4Z" stroke="currentColor" stroke-width="2" />
+                            </svg>
+                        </div>
+                        <h3>Отдел автохимии и аксессуаров</h3>
+                    </div>
+                    <div class="contact-info">
+                        <p><strong>Адрес:</strong> г. Волгодонск, Маяковского 12</p>
+                        <p><strong>Телефон:</strong> <a href="tel:+78639223967" class="contact-phone" data-phone="+7 (863-9) 22-39-67">+7 (863-9) 22-39-67</a></p>
+                        <p><strong>Адрес:</strong> г. Волгодонск, Курчатова 1Г</p>
+                        <p><strong>Телефон:</strong> <a href="tel:+78639256008" class="contact-phone" data-phone="+7 (863-9) 25-60-08">+7 (863-9) 25-60-08</a></p>
+                    </div>
+                </div>
+
+                <!-- Store 2 -->
+                <div class="contact-card">
+                    <div class="contact-header">
+                        <div class="contact-icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <path d="M24 4L8 14V28C8 36 24 44 24 44C24 44 40 36 40 28V14L24 4Z" stroke="currentColor" stroke-width="2" />
+                            </svg>
+                        </div>
+                        <h3>Отдел автозапчастей для автомобилей ВАЗ</h3>
+                    </div>
+                    <div class="contact-info">
+                        <p><strong>Адрес:</strong> г. Волгодонск, Маяковского 12</p>
+                        <p><strong>Телефон:</strong> <a href="tel:+78639223967" class="contact-phone" data-phone="+7 (863-9) 22-39-67">+7 (863-9) 22-39-67</a></p>
+                        <p><strong>Адрес:</strong> г. Волгодонск, Курчатова 1Г</p>
+                        <p><strong>Телефон:</strong> <a href="tel:+78639256008" class="contact-phone" data-phone="+7 (863-9) 25-60-08">+7 (863-9) 25-60-08</a></p>
+                    </div>
+                </div>
+
+                <!-- Store 3 -->
+                <div class="contact-card">
+                    <div class="contact-header">
+                        <div class="contact-icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <path d="M24 4L8 14V28C8 36 24 44 24 44C24 44 40 36 40 28V14L24 4Z" stroke="currentColor" stroke-width="2" />
+                            </svg>
+                        </div>
+                        <h3>Отдел автозапчастей для иномарок</h3>
+                    </div>
+                    <div class="contact-info">
+                        <p><strong>Адрес:</strong> г. Волгодонск, Курчатова 1Г</p>
+                        <p><strong>Телефон:</strong> <a href="tel:+78639272008" class="contact-phone" data-phone="+7 (863-9) 27-20-08">+7 (863-9) 27-20-08</a></p>
+                        <p><strong>Телефон:</strong> <a href="tel:+79897098547" class="contact-phone" data-phone="+7 (989) 709-85-47">+7 (989) 709-85-47</a></p>
+                    </div>
+                </div>
+
+                <!-- Service Station -->
+                <div class="contact-card">
+                    <div class="contact-header">
+                        <div class="contact-icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <circle cx="24" cy="24" r="18" stroke="currentColor" stroke-width="2" />
+                                <path d="M16 24H32M24 16V32" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <h3>Станция техобслуживания</h3>
+                    </div>
+                    <div class="contact-info">
+                        <p><strong>Адрес:</strong> г. Волгодонск, Курчатова 1Г</p>
+                        <p><strong>Телефон:</strong> <a href="tel:+79895233401" class="contact-phone" data-phone="+7 (989) 523-34-01">+7 (989) 523-34-01</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Yandex Maps -->
+            <div class="maps-container">
+                <div class="map-card">
+                    <h3 class="map-title">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" style="vertical-align: middle; margin-right: 8px;">
+                            <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2Z" stroke="currentColor" stroke-width="2" />
+                            <circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="2" />
+                        </svg>
+                        Магазин на Маяковского 12
+                    </h3>
+                    <div class="map-wrapper">
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A7761f87c5032c16805c6368e9c91e3654913357c7d7047b3e21c2c490255b0f2&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+                    </div>
+                    <p class="map-description">📍 Волгодонск, Маяковского 12 • ☎️ +7 (863-9) 22-39-67</p>
+                </div>
+
+                <div class="map-card">
+                    <h3 class="map-title">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" style="vertical-align: middle; margin-right: 8px;">
+                            <path d="M12 2C8.13 2 5 5.13 5 9C5 14.25 12 22 12 22C12 22 19 14.25 19 9C19 5.13 15.87 2 12 2Z" stroke="currentColor" stroke-width="2" />
+                            <circle cx="12" cy="9" r="2.5" stroke="currentColor" stroke-width="2" />
+                        </svg>
+                        Магазин на Курчатова 1Г
+                    </h3>
+                    <div class="map-wrapper">
+                        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af757dfa6c0c3cd9c6426351284331c8d0648e24cf45865818057a505c85e0d5f&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+                    </div>
+                    <p class="map-description">📍 Волгодонск, Курчатова 1Г • ☎️ +7 (863-9) 25-60-08 / 27-20-08</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <img src="logo.png" alt="Автозапчасти БЭЛЛА" class="footer-logo">
+                    <p>Автозапчасти БЭЛЛА - ваш надежный партнер с 2001 года</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Быстрые ссылки</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#products">Товары и услуги</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <ul class="footer-contacts">
+                        <li>г. Волгодонск, Маяковского 12</li>
+                        <li>г. Волгодонск, Курчатова 1Г</li>
+                        <li><a href="tel:+78639223967">+7 (863-9) 22-39-67</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Режим работы</h4>
+                    <ul class="footer-schedule">
+                        <li>Пн-Пт: 8:00 - 18:00</li>
+                        <li>Сб: 9:00 - 16:00</li>
+                        <li>Вс: Выходной</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Автозапчасти БЭЛЛА. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" aria-label="Наверх">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M12 20V4M12 4L6 10M12 4L18 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+    </button>
+
+    <script src="products-data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

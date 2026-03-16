@@ -1,0 +1,32 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Канистра с маслом -->
+    <g>
+        <!-- Основное тело канистры -->
+        <path d="M20 20 L20 50 C20 52 21 54 23 54 L41 54 C43 54 44 52 44 50 L44 20 Z" fill="#0066CC"/>
+        
+        <!-- Крышка -->
+        <rect x="26" y="14" width="12" height="6" rx="2" fill="#0099FF"/>
+        <rect x="28" y="10" width="8" height="4" rx="1" fill="#0099FF"/>
+        
+        <!-- Ручка -->
+        <path d="M44 22 L48 22 C50 22 52 24 52 26 L52 32 C52 34 50 36 48 36 L44 36" stroke="#0066CC" stroke-width="3" fill="none" stroke-linecap="round"/>
+        
+        <!-- Этикетка -->
+        <rect x="24" y="28" width="16" height="18" rx="2" fill="white" opacity="0.9"/>
+        
+        <!-- Текст на этикетке (символическое изображение масла) -->
+        <path d="M28 32 L28 36 C28 38 29 40 32 40 C35 40 36 38 36 36 L36 32" stroke="#0066CC" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <circle cx="32" cy="36" r="1.5" fill="#0066CC"/>
+        
+        <!-- Капли масла -->
+        <ellipse cx="30" cy="43" rx="1.5" ry="2" fill="#0066CC" opacity="0.6"/>
+        <ellipse cx="34" cy="43" rx="1.5" ry="2" fill="#0066CC" opacity="0.6"/>
+        
+        <!-- Уровень масла (волнистая линия) -->
+        <path d="M24 48 Q28 46 32 48 T40 48" stroke="#0099FF" stroke-width="1.5" fill="none"/>
+        
+        <!-- Блики на канистре -->
+        <path d="M22 24 L22 32" stroke="white" stroke-width="2" opacity="0.3" stroke-linecap="round"/>
+        <path d="M24 22 L24 26" stroke="white" stroke-width="1.5" opacity="0.4" stroke-linecap="round"/>
+    </g>
+</svg>

@@ -1,0 +1,45 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Бутылка с жидкостью -->
+    <g>
+        <!-- Горлышко -->
+        <rect x="26" y="8" width="12" height="8" rx="2" fill="#0099FF"/>
+        
+        <!-- Крышка -->
+        <rect x="28" y="4" width="8" height="4" rx="1" fill="#0066CC"/>
+        <line x1="30" y1="5" x2="34" y2="5" stroke="white" stroke-width="1" opacity="0.6"/>
+        
+        <!-- Основное тело бутылки -->
+        <path d="M26 16 L22 20 L22 52 C22 54 23 56 25 56 L39 56 C41 56 42 54 42 52 L42 20 L38 16 Z" fill="#0099FF" opacity="0.7"/>
+        
+        <!-- Контур бутылки -->
+        <path d="M26 16 L22 20 L22 52 C22 54 23 56 25 56 L39 56 C41 56 42 54 42 52 L42 20 L38 16" stroke="#0066CC" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        
+        <!-- Уровень жидкости -->
+        <path d="M22 38 L42 38" stroke="#0066CC" stroke-width="2"/>
+        <rect x="22" y="38" width="20" height="14" fill="#0099FF" opacity="0.9"/>
+        
+        <!-- Волны на поверхности жидкости -->
+        <path d="M22 38 Q27 36 32 38 T42 38" stroke="#0099FF" stroke-width="1.5" fill="none" opacity="0.6"/>
+        
+        <!-- Этикетка -->
+        <rect x="26" y="26" width="12" height="10" rx="1" fill="white" opacity="0.9"/>
+        <line x1="28" y1="29" x2="36" y2="29" stroke="#0066CC" stroke-width="1.5" stroke-linecap="round"/>
+        <line x1="28" y1="32" x2="36" y2="32" stroke="#0066CC" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+        
+        <!-- Символ жидкости на этикетке -->
+        <path d="M30 30 L30 33 Q30 34 32 34 Q34 34 34 33 L34 30" stroke="#0066CC" stroke-width="1" fill="none"/>
+        
+        <!-- Блики на бутылке -->
+        <path d="M24 24 L24 32" stroke="white" stroke-width="2.5" opacity="0.4" stroke-linecap="round"/>
+        <path d="M26 22 L26 28" stroke="white" stroke-width="1.5" opacity="0.3" stroke-linecap="round"/>
+        <ellipse cx="28" cy="48" rx="2" ry="3" fill="white" opacity="0.3"/>
+        
+        <!-- Рифление на дне -->
+        <line x1="26" y1="54" x2="38" y2="54" stroke="#0066CC" stroke-width="1" opacity="0.6"/>
+        
+        <!-- Капля (символ жидкости) -->
+        <g transform="translate(40, 18)">
+            <path d="M0 0 Q-3 4 0 8 Q3 4 0 0" fill="#0099FF" opacity="0.6"/>
+        </g>
+    </g>
+</svg>

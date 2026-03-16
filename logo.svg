@@ -1,0 +1,70 @@
+<!-- ВРЕМЕННЫЙ PLACEHOLDER ДЛЯ ЛОГОТИПА -->
+<!-- Замените этот файл на logo.png размером 2024x1161 -->
+
+<svg width="2024" height="1161" viewBox="0 0 2024 1161" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Фон -->
+    <rect width="2024" height="1161" fill="white"/>
+    
+    <!-- Градиентный фон -->
+    <defs>
+        <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#E6F2FF;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1" />
+        </linearGradient>
+        <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" style="stop-color:#0066CC;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#0099FF;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    
+    <rect width="2024" height="1161" fill="url(#bgGradient)"/>
+    
+    <!-- Декоративные элементы -->
+    <circle cx="200" cy="200" r="150" fill="#0066CC" opacity="0.05"/>
+    <circle cx="1824" cy="961" r="200" fill="#0099FF" opacity="0.05"/>
+    
+    <!-- Автомобиль (увеличенная версия) -->
+    <g transform="translate(400, 300) scale(4)">
+        <path d="M12 40 L16 28 L20 24 L44 24 L48 28 L52 40" stroke="#0066CC" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M20 24 L24 16 L40 16 L44 24" stroke="#0066CC" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M12 40 L8 40 L8 44 L14 44" stroke="#0066CC" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M52 40 L56 40 L56 44 L50 44" stroke="#0066CC" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="18" cy="44" r="6" stroke="#0066CC" stroke-width="2.5" fill="none"/>
+        <circle cx="18" cy="44" r="3" fill="#0066CC"/>
+        <circle cx="46" cy="44" r="6" stroke="#0066CC" stroke-width="2.5" fill="none"/>
+        <circle cx="46" cy="44" r="3" fill="#0066CC"/>
+    </g>
+    
+    <!-- Текст БЭЛЛА -->
+    <text x="1012" y="480" font-family="Inter, Arial, sans-serif" font-size="180" font-weight="900" fill="url(#textGradient)" text-anchor="middle" letter-spacing="-3">БЭЛЛА</text>
+    
+    <!-- Подзаголовок -->
+    <text x="1012" y="580" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="600" fill="#0066CC" text-anchor="middle">АВТОЗАПЧАСТИ</text>
+    
+    <!-- Год основания -->
+    <text x="1012" y="680" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="500" fill="#64748B" text-anchor="middle">С 2001 ГОДА</text>
+    
+    <!-- Слоган -->
+    <text x="1012" y="780" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="400" fill="#94A3B8" text-anchor="middle" font-style="italic">Всё для вашего автомобиля</text>
+    
+    <!-- Декоративная линия -->
+    <rect x="812" y="620" width="400" height="4" rx="2" fill="url(#textGradient)"/>
+    
+    <!-- Иконки по краям -->
+    <g transform="translate(150, 520) scale(2)">
+        <!-- Гаечный ключ -->
+        <path d="M10 30 L10 34 L24 34 L24 42 L30 48 L36 42 L30 36 L30 30 Z" fill="#0099FF" opacity="0.6"/>
+        <rect x="24" y="28" width="30" height="8" rx="2" fill="#0099FF" opacity="0.6"/>
+    </g>
+    
+    <g transform="translate(1700, 520) scale(2)">
+        <!-- Фильтр -->
+        <circle cx="32" cy="32" r="24" stroke="#0099FF" stroke-width="3" fill="none" opacity="0.6"/>
+        <circle cx="32" cy="32" r="16" stroke="#0099FF" stroke-width="2" fill="none" opacity="0.6"/>
+    </g>
+    
+    <!-- Нижний текст -->
+    <text x="1012" y="950" font-family="Inter, Arial, sans-serif" font-size="32" font-weight="500" fill="#475569" text-anchor="middle">г. Волгодонск • Маяковского 12 • Курчатова 1Г</text>
+    
+    <text x="1012" y="1010" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="600" fill="#0066CC" text-anchor="middle">8(863-9) 22-39-67 • 8(863-9) 25-60-08</text>
+</svg>

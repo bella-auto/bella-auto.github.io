@@ -1,0 +1,27 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Основание гаечного ключа -->
+    <path d="M10 30 L10 34 L24 34 L24 42 L30 48 L36 42 L30 36 L30 30 Z" fill="#0066CC"/>
+    
+    <!-- Рукоятка -->
+    <rect x="24" y="28" width="30" height="8" rx="2" fill="#0066CC"/>
+    
+    <!-- Открытый конец ключа -->
+    <path d="M8 26 L8 38 L14 38 L14 34 L10 34 L10 30 L14 30 L14 26 Z" fill="#0066CC"/>
+    
+    <!-- Отвертка -->
+    <g transform="translate(35, 15) rotate(45)">
+        <!-- Ручка отвертки -->
+        <rect x="0" y="0" width="8" height="20" rx="2" fill="#0099FF"/>
+        
+        <!-- Стержень -->
+        <rect x="2" y="18" width="4" height="15" fill="#475569"/>
+        
+        <!-- Наконечник -->
+        <path d="M2 33 L3 36 L5 36 L6 33 Z" fill="#334155"/>
+    </g>
+    
+    <!-- Декоративные линии на рукоятке -->
+    <line x1="28" y1="30" x2="28" y2="34" stroke="white" stroke-width="1" opacity="0.5"/>
+    <line x1="32" y1="30" x2="32" y2="34" stroke="white" stroke-width="1" opacity="0.5"/>
+    <line x1="36" y1="30" x2="36" y2="34" stroke="white" stroke-width="1" opacity="0.5"/>
+</svg>

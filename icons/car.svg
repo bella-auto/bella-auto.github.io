@@ -1,0 +1,31 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Кузов автомобиля -->
+    <path d="M12 40 L16 28 L20 24 L44 24 L48 28 L52 40" stroke="#0066CC" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Крыша -->
+    <path d="M20 24 L24 16 L40 16 L44 24" stroke="#0066CC" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Окна -->
+    <path d="M22 23 L25 17 L32 17" stroke="#0066CC" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M32 17 L39 17 L42 23" stroke="#0066CC" stroke-width="2" fill="none" stroke-linecap="round"/>
+    
+    <!-- Нижняя часть -->
+    <path d="M12 40 L8 40 L8 44 L14 44" stroke="#0066CC" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M52 40 L56 40 L56 44 L50 44" stroke="#0066CC" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Переднее колесо -->
+    <circle cx="18" cy="44" r="6" stroke="#0066CC" stroke-width="2.5" fill="none"/>
+    <circle cx="18" cy="44" r="3" fill="#0066CC"/>
+    
+    <!-- Заднее колесо -->
+    <circle cx="46" cy="44" r="6" stroke="#0066CC" stroke-width="2.5" fill="none"/>
+    <circle cx="46" cy="44" r="3" fill="#0066CC"/>
+    
+    <!-- Фары -->
+    <circle cx="10" cy="38" r="1.5" fill="#0066CC"/>
+    <circle cx="54" cy="38" r="1.5" fill="#0066CC"/>
+    
+    <!-- Дверные ручки -->
+    <line x1="28" y1="32" x2="32" y2="32" stroke="#0066CC" stroke-width="1.5" stroke-linecap="round"/>
+    <line x1="36" y1="32" x2="40" y2="32" stroke="#0066CC" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

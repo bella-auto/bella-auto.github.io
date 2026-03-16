@@ -1,0 +1,42 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Лампочка -->
+    <g>
+        <!-- Колба лампы -->
+        <circle cx="32" cy="28" r="14" fill="#FFD700" opacity="0.3"/>
+        <circle cx="32" cy="28" r="12" fill="none" stroke="#0066CC" stroke-width="2.5"/>
+        
+        <!-- Свечение -->
+        <circle cx="32" cy="28" r="18" fill="#FFD700" opacity="0.1"/>
+        
+        <!-- Нить накаливания -->
+        <path d="M30 28 Q32 24 34 28 Q32 32 30 28" stroke="#0066CC" stroke-width="1.5" fill="none"/>
+        
+        <!-- Цоколь -->
+        <rect x="26" y="40" width="12" height="8" rx="1" fill="#0066CC"/>
+        
+        <!-- Резьба на цоколе -->
+        <line x1="26" y1="42" x2="38" y2="42" stroke="white" stroke-width="1" opacity="0.6"/>
+        <line x1="26" y1="44" x2="38" y2="44" stroke="white" stroke-width="1" opacity="0.6"/>
+        <line x1="26" y1="46" x2="38" y2="46" stroke="white" stroke-width="1" opacity="0.6"/>
+        
+        <!-- Контакт -->
+        <rect x="28" y="48" width="8" height="3" rx="0.5" fill="#475569"/>
+        
+        <!-- Соединение колбы с цоколем -->
+        <path d="M27 39 L27 41 L37 41 L37 39" fill="#0099FF"/>
+        
+        <!-- Лучи света -->
+        <g opacity="0.4">
+            <line x1="32" y1="10" x2="32" y2="14" stroke="#FFD700" stroke-width="2" stroke-linecap="round"/>
+            <line x1="18" y1="16" x2="21" y2="19" stroke="#FFD700" stroke-width="2" stroke-linecap="round"/>
+            <line x1="10" y1="28" x2="14" y2="28" stroke="#FFD700" stroke-width="2" stroke-linecap="round"/>
+            <line x1="46" y1="16" x2="43" y2="19" stroke="#FFD700" stroke-width="2" stroke-linecap="round"/>
+            <line x1="54" y1="28" x2="50" y2="28" stroke="#FFD700" stroke-width="2" stroke-linecap="round"/>
+            <line x1="18" y1="40" x2="21" y2="37" stroke="#FFD700" stroke-width="2" stroke-linecap="round"/>
+            <line x1="46" y1="40" x2="43" y2="37" stroke="#FFD700" stroke-width="2" stroke-linecap="round"/>
+        </g>
+        
+        <!-- Блик на колбе -->
+        <path d="M38 22 L40 20 L38 24" stroke="white" stroke-width="2" opacity="0.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+</svg>

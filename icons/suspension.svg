@@ -1,0 +1,49 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!-- Колесо с амортизатором (символ ходовой части) -->
+    <g>
+        <!-- Колесо -->
+        <circle cx="32" cy="44" r="14" stroke="#0066CC" stroke-width="3" fill="none"/>
+        <circle cx="32" cy="44" r="10" stroke="#0066CC" stroke-width="2" fill="white"/>
+        <circle cx="32" cy="44" r="4" fill="#0066CC"/>
+        
+        <!-- Спицы колеса -->
+        <line x1="32" y1="30" x2="32" y2="38" stroke="#0066CC" stroke-width="2"/>
+        <line x1="32" y1="50" x2="32" y2="58" stroke="#0066CC" stroke-width="2"/>
+        <line x1="18" y1="44" x2="26" y2="44" stroke="#0066CC" stroke-width="2"/>
+        <line x1="38" y1="44" x2="46" y2="44" stroke="#0066CC" stroke-width="2"/>
+        <line x1="23" y1="34" x2="29" y2="40" stroke="#0066CC" stroke-width="2"/>
+        <line x1="35" y1="48" x2="41" y2="54" stroke="#0066CC" stroke-width="2"/>
+        <line x1="23" y1="54" x2="29" y2="48" stroke="#0066CC" stroke-width="2"/>
+        <line x1="35" y1="40" x2="41" y2="34" stroke="#0066CC" stroke-width="2"/>
+        
+        <!-- Амортизатор/пружина -->
+        <g>
+            <!-- Верхнее крепление -->
+            <rect x="28" y="6" width="8" height="4" rx="1" fill="#0066CC"/>
+            
+            <!-- Шток амортизатора -->
+            <rect x="30" y="10" width="4" height="8" fill="#475569"/>
+            
+            <!-- Корпус амортизатора -->
+            <rect x="28" y="18" width="8" height="12" rx="2" fill="#0099FF"/>
+            <line x1="28" y1="22" x2="36" y2="22" stroke="white" stroke-width="1" opacity="0.5"/>
+            <line x1="28" y1="26" x2="36" y2="26" stroke="white" stroke-width="1" opacity="0.5"/>
+            
+            <!-- Нижняя часть с пружиной (стилизованная) -->
+            <path d="M30 30 L28 32 L32 34 L28 36 L32 38 L30 40" stroke="#0066CC" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M34 30 L36 32 L32 34 L36 36 L32 38 L34 40" stroke="#0066CC" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+        </g>
+        
+        <!-- Протектор (внешняя часть шины) -->
+        <g opacity="0.6">
+            <rect x="30" y="28" width="4" height="2" fill="#0066CC"/>
+            <rect x="30" y="58" width="4" height="2" fill="#0066CC"/>
+            <rect x="16" y="42" width="2" height="4" fill="#0066CC"/>
+            <rect x="46" y="42" width="2" height="4" fill="#0066CC"/>
+        </g>
+        
+        <!-- Индикатор износа/состояния -->
+        <circle cx="50" cy="20" r="8" fill="#10B981"/>
+        <path d="M46 20 L48 22 L54 16" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+</svg>
